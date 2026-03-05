@@ -1,0 +1,148 @@
+{
+  "projectType": "saas",
+  "projectName": "Luxessence",
+  "projectDescription": "A luxury e-commerce platform for fragrance and personal care products with customer storefront and comprehensive admin management.",
+  "theme": "almond",
+  "primaryColor": "#f4e6d6",
+  "lightColor": null,
+  "darkColor": null,
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "For Customers",
+            "pages": [
+              "customers/browsing-products",
+              "customers/shopping-cart",
+              "customers/placing-orders",
+              "customers/account-management",
+              "customers/order-tracking"
+            ]
+          },
+          {
+            "group": "For Administrators",
+            "pages": [
+              "admin/dashboard",
+              "admin/product-management",
+              "admin/order-management",
+              "admin/customer-management",
+              "admin/sales-history",
+              "admin/promotions",
+              "admin/settings"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "features/shopping-cart",
+              "features/authentication",
+              "features/promotions",
+              "features/pwa",
+              "features/combo-products"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Technical",
+        "groups": [
+          {
+            "group": "Architecture",
+            "pages": [
+              "technical/overview",
+              "technical/tech-stack",
+              "technical/database-schema",
+              "technical/supabase-integration"
+            ]
+          },
+          {
+            "group": "Deployment",
+            "pages": [
+              "deployment/environment-setup",
+              "deployment/vercel-deployment",
+              "deployment/supabase-setup"
+            ]
+          },
+          {
+            "group": "Development",
+            "pages": [
+              "development/project-structure",
+              "development/components",
+              "development/routing",
+              "development/state-management"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Data Models",
+            "pages": [
+              "api/products",
+              "api/orders",
+              "api/customers",
+              "api/sales",
+              "api/categories"
+            ]
+          },
+          {
+            "group": "Context & Hooks",
+            "pages": [
+              "api/cart-context",
+              "api/toast-context",
+              "api/update-context",
+              "api/hooks"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Customer-facing e-commerce storefront with product catalog",
+    "Shopping cart with combo product support and BOGO promotions",
+    "User authentication and profile management via Supabase",
+    "Order placement and tracking system",
+    "Comprehensive admin dashboard with analytics",
+    "Product and inventory management",
+    "Customer relationship management (CRM)",
+    "Sales history and reporting",
+    "Promotions and featured products management",
+    "Progressive Web App (PWA) support",
+    "Multi-payment method support (Contado/Crédito)",
+    "Responsive design with Tailwind CSS"
+  ],
+  "publicApiSurface": [
+    "Home page - Featured products and new arrivals",
+    "Catalog - Browse all products with filtering",
+    "ProductDetail - View individual product details",
+    "Cart - Shopping cart management",
+    "Orders - Customer order history and tracking",
+    "Profile - User account management",
+    "Contact - Customer support form",
+    "Admin Dashboard - Sales analytics and metrics",
+    "Admin Product Management - CRUD operations for products",
+    "Admin Order Management - Process and manage orders",
+    "Admin Customer Management - CRM features",
+    "Admin Sales History - Transaction history and reports",
+    "Admin Promotions - Manage discounts and special offers",
+    "Admin Featured - Configure featured products",
+    "Admin Site Settings - Configure site parameters",
+    "CartContext - Global shopping cart state",
+    "ToastContext - Notification system",
+    "UpdateContext - PWA update management",
+    "useCachedSupabase - Optimized Supabase queries"
+  ]
+}
